@@ -1,0 +1,35 @@
+nav {
+    background-color: #F9F9F9;
+    width: 520px; /* Largura do menu */
+    height: 15px; /* Altura do menu */
+    border-radius: 100px; /* Bordas arredondadas */
+    padding: 1rem;
+    position: fixed;
+    top: 40px; /* Ajuste para descer o menu */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra para destaque */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #232323;
+    text-decoration: none;
+    font-weight: Bold;
+    font-family: 'Gaegu', cursive; /* Aplicando a fonte Gaegu */
+}

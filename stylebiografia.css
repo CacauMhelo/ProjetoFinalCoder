@@ -1,0 +1,53 @@
+body.biografia {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('FotoMabel.jpg') no-repeat center center fixed; /* Imagem de fundo específica para a Home */
+    background-size: cover;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1; /* Faz com que o conteúdo principal ocupe o espaço disponível */
+    padding-top: 5rem; /* Adiciona espaço para o conteúdo abaixo do nav fixo */
+    padding-bottom: 5rem; /* Adiciona espaço extra abaixo do conteúdo */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinha o conteúdo no topo */
+}
+
+.bio-container {
+    background-color: #fff; /* Fundo sólido */
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 800px;
+    width: 100%;
+    text-align: left; /* Alinha o texto à esquerda */
+    position: relative; /* Permite o posicionamento relativo */
+    margin-top: 8rem; /* Adiciona margem superior para descer o contêiner */
+}
+
+.bio-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha o h1 à esquerda */
+    margin-bottom: 2rem;
+}
+
+.bio-content {
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.bio-content h2 {
+    margin-top: 1.5rem; /* Adiciona espaço acima dos títulos */
+}
+
+.bio-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+}
