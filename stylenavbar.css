@@ -1,18 +1,19 @@
 nav {
     background-color: #F9F9F9;
-    width: 520px; /* Largura do menu */
-    height: 15px; /* Altura do menu */
-    border-radius: 100px; /* Bordas arredondadas */
+    width: 40%; /* Ajuste a porcentagem conforme necessário */
+    height: 2%;
+    border-radius: 100px; /* Adiciona bordas arredondadas */
     padding: 1rem;
-    position: fixed;
-    top: 40px; /* Ajuste para descer o menu */
-    left: 50%;
-    transform: translateX(-50%);
+    position: fixed; /* Mantém o menu fixo no topo */
+    top: 30px; /* Ajuste a distância do topo conforme necessário */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Centraliza horizontalmente */
+    margin: 0 auto; /* Centraliza o menu horizontalmente */
     z-index: 1000;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra para destaque */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
@@ -30,6 +31,6 @@ nav ul li {
 nav ul li a {
     color: #232323;
     text-decoration: none;
-    font-weight: Bold;
+    font-weight: bold;
     font-family: 'Gaegu', cursive; /* Aplicando a fonte Gaegu */
 }

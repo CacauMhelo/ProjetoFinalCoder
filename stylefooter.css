@@ -1,7 +1,7 @@
 .main-footer {
     background-color: #B4E2DC;
     height: 150px; /* Ajuste a altura conforme necessário */
-    width: 100%; /* Ajuste a largura conforme necessário */
+    width: auto; /* Ajuste a largura conforme necessário */
     max-width: 1800px; /* Limite máximo de largura */
     text-align: center;
     padding: 2rem;
@@ -9,6 +9,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 
 .main-footer p {
