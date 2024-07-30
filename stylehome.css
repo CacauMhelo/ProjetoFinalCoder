@@ -6,10 +6,11 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: #F1F0EC; /* Define a cor de fundo */
+    
 }
 
 .background-container {
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -37,7 +38,7 @@ body {
     text-align: center;
     padding: 2rem;
     background-color: transparent; /* Fundo transparente */
-    margin: -1rem auto; /* Empurra o botão "Conheça Mabel" para o final */
+    margin: 1rem auto; /* Empurra o botão "Conheça Mabel" para o final */
     max-width: 800px;
     border-radius: 10px;
     margin-top: auto; /* Garante que o footer fique no final da página */

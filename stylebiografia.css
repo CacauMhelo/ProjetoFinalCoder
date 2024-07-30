@@ -39,7 +39,7 @@ body.biografia {
     max-width: 800px;
     width: 100%;
     text-align: left; /* Alinha o texto à esquerda */
-    margin-top: -15rem; /* Ajusta a margem superior para descer o contêiner */
+    margin-top: -18rem; /* Ajusta a margem superior para descer o contêiner */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra para destaque */
 }
 
@@ -53,7 +53,7 @@ body.biografia {
 .color-line {
     width: 100%;
     height: 3px;
-    background-color: #C44917; /* Cor azul */
+    background-color: #C44917; /* Cor laranja */
     border: none;
     margin-top: 0.5rem; /* Espaço entre o h1 e a linha */
 }
@@ -74,29 +74,14 @@ body.biografia {
     line-height: 1.6; /* Define o espaçamento entre linhas */
     font-size: 15px;
 }
+.image-container {
+    text-align: center; /* Centraliza a imagem dentro do contêiner */
+    margin-top: 1rem; /* Adiciona espaço acima da imagem */
+}
 
 .bio-image {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin-bottom: 1rem;
-}
-
-.main-footer {
-    background-color: #f1f1f1;
-    text-align: center;
-    padding: 1rem 0;
-    width: 100%;
-    position: relative;
-}
-
-.social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.social-icons a img {
-    width: 24px;
-    height: 24px;
+    background-color: #f9f9f9; /* Fundo sólido */
+    width: 90px; /* Define a largura da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    display: inline-block; /* Garante que a imagem seja exibida como um bloco inline */
 }

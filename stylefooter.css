@@ -9,24 +9,38 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 14px; /* Diminui o tamanho da fonte do nome */
     
 }
 
-.main-footer p {
-    margin: 0;
-    font-size: 1.2rem;
-    font-family: 'Inter', sans-serif;
+.main-footer {
+    background-color: #B4E2DC;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    position: relative;
 }
 
 .social-icons {
-    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
 
-.social-icons a {
-    margin: 0 1rem;
+.social-icons a img {
+    width: 24px;
+    height: 24px;
+}
+.author-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem; /* Espaço acima do nome */
+    font-size: 13px; /* Diminui o tamanho da fonte do nome */
 }
 
-.social-icons img {
-    width: 30px;
-    height: 30px;
+.icon-copyright {
+    width: 10px; /* Define a largura do ícone */
+    height: 10px; /* Define a altura do ícone */
+    margin-right: 0.2rem; /* Espaço entre o ícone e o nome */
 }
