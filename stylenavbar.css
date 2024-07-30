@@ -8,7 +8,6 @@ nav {
     top: 30px; /* Ajuste a distância do topo conforme necessário */
     left: 50%; /* Centraliza horizontalmente */
     transform: translateX(-50%); /* Centraliza horizontalmente */
-    margin: 0 auto; /* Centraliza o menu horizontalmente */
     z-index: 1000;
     display: flex;
     align-items: center;
