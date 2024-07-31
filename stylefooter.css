@@ -1,7 +1,7 @@
 .main-footer {
     background-color: #B4E2DC;
-    height: 150px; /* Ajuste a altura conforme necessário */
-    width: auto; /* Ajuste a largura conforme necessário */
+    height: auto; /* Ajuste automático da altura */
+    width: 100%; /* Largura total da página */
     max-width: 1800px; /* Limite máximo de largura */
     text-align: center;
     padding: 2rem;
@@ -9,38 +9,36 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 14px; /* Diminui o tamanho da fonte do nome */
-    
-}
-
-.main-footer {
-    background-color: #B4E2DC;
-    text-align: center;
-    padding: 1rem 0;
-    width: 100%;
-    position: relative;
+    font-size: 14px; /* Tamanho da fonte */
+    position: relative; /* Posição relativa */
+    margin-top: 2rem; /* Espaço acima do footer */
+    font-family: 'Inter', serif;
+    box-sizing: border-box; /* Inclui padding e border na largura e altura */
+    margin: 0 auto; /* Centraliza o footer horizontalmente */
 }
 
 .social-icons {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    margin-top: 1rem; /* Espaço acima dos ícones sociais */
 }
 
 .social-icons a img {
     width: 24px;
     height: 24px;
 }
+
 .author-info {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 1rem; /* Espaço acima do nome */
-    font-size: 13px; /* Diminui o tamanho da fonte do nome */
+    font-size: 13px; /* Tamanho da fonte do nome */
 }
 
 .icon-copyright {
-    width: 10px; /* Define a largura do ícone */
-    height: 10px; /* Define a altura do ícone */
+    width: 10px; /* Largura do ícone */
+    height: 10px; /* Altura do ícone */
     margin-right: 0.2rem; /* Espaço entre o ícone e o nome */
 }

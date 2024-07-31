@@ -1,11 +1,11 @@
 nav {
     background-color: #F9F9F9;
     width: 40%; /* Ajuste a porcentagem conforme necessário */
-    height: 2%;
+    height: 100%;
     border-radius: 100px; /* Adiciona bordas arredondadas */
     padding: 1rem;
-    position: fixed; /* Mantém o menu fixo no topo */
-    top: 30px; /* Ajuste a distância do topo conforme necessário */
+    position: relative; /* Mantém o menu fixo no topo */
+    top: 25px; /* Ajuste a distância do topo conforme necessário */
     left: 50%; /* Centraliza horizontalmente */
     transform: translateX(-50%); /* Centraliza horizontalmente */
     z-index: 1000;
