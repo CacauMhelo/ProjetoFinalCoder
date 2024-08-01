@@ -1,0 +1,125 @@
+body {
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-color: #F1F0EC;
+    font-family: 'Inter', serif; 
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    box-sizing: border-box; 
+    
+}
+
+.obras-publicadas {
+    background-image: url(CapaObrasPublicadas.jpg); /* Background da página Biografia */
+}
+
+.biografia {
+    background-image: url(CapaBiografia.jpg); /* Background da página Biografia */
+}
+
+.galeria {
+    background-image: url(CapaGaleria.jpg); /* Background da página Galeria */
+}
+
+.home {
+    background-image: url(FundoHome.jpg); /* Background da página Home e suas especificações */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center -30px;
+}
+
+main.content {
+    flex: 1; 
+    padding: 5rem 1rem; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+.bio-container {
+    background-color: #f9f9f9; 
+    border-radius: 10px;
+    padding: 2rem;
+    max-width: 800px;
+    width: 100%;
+    text-align: left; 
+    margin-top: 28rem; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.bio-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-bottom: 2rem;
+    font-family: 'Inter', serif; 
+    font-size: 17px;
+}
+
+.color-line {
+    width: 100%;
+    height: 3px;
+    background-color: #C44917; 
+    border: none;
+    margin-top: 0.5rem; 
+}
+
+.bio-content h2 {
+    margin-top: 1.5rem; 
+    font-family: 'Inter', serif; 
+    font-size: 16px;
+}
+
+.bio-content p {
+    font-family: 'Inter', serif; 
+    line-height: 1.6; 
+    font-size: 14px;
+}
+
+.image-container {
+    text-align: center; 
+    margin-top: 1rem; 
+}
+
+/* Imagem ao final do texto do container */
+.booboo-image {
+    background-color: #f9f9f9; 
+    width: 90px; 
+    height: auto; 
+}
+
+/* Footer apenas da Home */
+.footer-home {
+    text-align: center;
+    padding: -2rem;
+    background-color: transparent; 
+    margin: 1rem; 
+    max-width: 800px;
+    border-radius: 10px;
+    margin-top: auto; 
+    position: fixed; 
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; 
+}
+
+.footer-home a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.7rem 3rem;
+    background-color: #668632; 
+    color: #f9f9f9;
+    text-decoration: none;
+    border-radius: 20px; 
+    font-size: 14px; 
+    font-family: 'Inter', sans-serif; 
+    transition: background-color 0.3s ease; /* Transição suave do hover */
+}
+
+.footer-home a:hover {
+    background-color: #C44917; 
+}
