@@ -12,8 +12,20 @@ body {
     
 }
 
+.alice-book {
+    background-image: url(CapaAlice.jpg); /* Background da página Alice*/
+}
+
+.peterpan-book {
+    background-image: url(CapaPeterPan.jpg); /* Background da página Peter Pan */
+}
+
+.grimms-book {
+    background-image: url(CapaGrimms.jpg); /* Background da página Grimms */
+}
+
 .obras-publicadas {
-    background-image: url(CapaObrasPublicadas.jpg); /* Background da página Biografia */
+    background-image: url(CapaObrasPublicadas.jpg); /* Background da página Obras publicadas */
 }
 
 .biografia {
@@ -74,6 +86,12 @@ main.content {
 }
 
 .bio-content p {
+    font-family: 'Inter', serif; 
+    line-height: 1.6; 
+    font-size: 14px;
+}
+
+.bio-content ul {
     font-family: 'Inter', serif; 
     line-height: 1.6; 
     font-size: 14px;
