@@ -1,13 +1,13 @@
 nav {
     background-color: #F9F9F9;
-    width: 40%; /* Ajuste a porcentagem conforme necessário */
+    width: 40%; 
     height: 100%;
-    border-radius: 100px; /* Adiciona bordas arredondadas */
+    border-radius: 100px; 
     padding: 1rem;
-    position: relative; /* Mantém o menu fixo no topo */
-    top: 25px; /* Ajuste a distância do topo conforme necessário */
-    left: 50%; /* Centraliza horizontalmente */
-    transform: translateX(-50%); /* Centraliza horizontalmente */
+    position: relative; 
+    top: 25px; 
+    left: 50%; 
+    transform: translateX(-50%); 
     z-index: 1000;
     display: flex;
     align-items: center;
@@ -31,5 +31,25 @@ nav ul li a {
     color: #232323;
     text-decoration: none;
     font-weight: bold;
-    font-family: 'Gaegu', cursive; /* Aplicando a fonte Gaegu */
+    font-family: 'Gaegu', cursive; 
+    position: relative; 
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #C44917;
+    transition: width 0.3s ease;
+    -webkit-transition: width 0.3s ease;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+    left: 0;
+    background: #668632;
 }

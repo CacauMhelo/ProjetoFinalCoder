@@ -1,27 +1,27 @@
 .main-footer {
     background-color: #B4E2DC;
-    height: auto; /* Ajuste automático da altura */
-    width: 100%; /* Largura total da página */
-    max-width: 1800px; /* Limite máximo de largura */
+    height: auto; 
+    width: 100%;
+    max-width: 1800px; 
     text-align: center;
     padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 14px; /* Tamanho da fonte */
-    position: relative; /* Posição relativa */
-    margin-top: 2rem; /* Espaço acima do footer */
+    font-size: 14px; 
+    position: relative; 
+    margin-top: 2rem; 
     font-family: 'Inter', serif;
-    box-sizing: border-box; /* Inclui padding e border na largura e altura */
-    margin: 0 auto; /* Centraliza o footer horizontalmente */
+    box-sizing: border-box; 
+    margin: 0 auto; 
 }
 
 .social-icons {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-top: 1rem; /* Espaço acima dos ícones sociais */
+    margin-top: 1rem; 
 }
 
 .social-icons a img {
@@ -33,12 +33,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1rem; /* Espaço acima do nome */
-    font-size: 13px; /* Tamanho da fonte do nome */
+    margin-top: 1rem; 
+    font-size: 13px; 
 }
 
 .icon-copyright {
-    width: 10px; /* Largura do ícone */
-    height: 10px; /* Altura do ícone */
-    margin-right: 0.2rem; /* Espaço entre o ícone e o nome */
+    width: 10px; 
+    height: 10px; 
+    margin-right: 0.2rem; 
 }
