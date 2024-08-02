@@ -12,6 +12,14 @@ body {
     
 }
 
+.mother-book {
+    background-image: url(CapaMother.jpg); /* Background da página Water*/
+}
+
+.water-book {
+    background-image: url(CapaWater.jpg); /* Background da página Water*/
+}
+
 .alice-book {
     background-image: url(CapaAlice.jpg); /* Background da página Alice*/
 }
