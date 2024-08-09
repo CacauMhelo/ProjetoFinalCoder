@@ -1,134 +1,136 @@
 body {
     background-repeat: no-repeat;
-    background-size: 100%; 
+    background-size: 100%;
     background-color: #F1F0EC;
-    font-family: 'Inter', serif; 
-    margin: 0; 
-    padding: 0; 
+    font-family: 'Inter', serif;
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh; 
-    box-sizing: border-box; 
-    
+    min-height: 100vh;
+    box-sizing: border-box;
 }
 
+/* Backgrounds Específicos por Página */
 .sobre {
-    background-image: url(CapaSobre.jpg); /* Background da página Sobre*/
+    background-image: url(CapaSobre.jpg);
 }
 
 .mother-book {
-    background-image: url(CapaMother.jpg); /* Background da página Water*/
+    background-image: url(CapaMother.jpg);
 }
 
 .water-book {
-    background-image: url(CapaWater.jpg); /* Background da página Water*/
+    background-image: url(CapaWater.jpg);
 }
 
 .alice-book {
-    background-image: url(CapaAlice.jpg); /* Background da página Alice*/
+    background-image: url(CapaAlice.jpg);
 }
 
 .peterpan-book {
-    background-image: url(CapaPeterPan.jpg); /* Background da página Peter Pan */
+    background-image: url(CapaPeterPan.jpg);
 }
 
 .grimms-book {
-    background-image: url(CapaGrimms.jpg); /* Background da página Grimms */
+    background-image: url(CapaGrimms.jpg);
 }
 
 .obras-publicadas {
-    background-image: url(CapaObrasPublicadas.jpg); /* Background da página Obras publicadas */
+    background-image: url(CapaObrasPublicadas.jpg);
 }
 
 .biografia {
-    background-image: url(CapaBiografia.jpg); /* Background da página Biografia */
+    background-image: url(CapaBiografia.jpg);
 }
 
 .galeria {
-    background-image: url(CapaGaleria.jpg); /* Background da página Galeria */
+    background-image: url(CapaGaleria.jpg);
 }
 
 .home {
-    background-image: url(FundoHome.jpg); /* Background da página Home */
+    background-image: url(FundoHome.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center -30px;
 }
 
+/* Conteúdo Principal */
 main.content {
-    flex: 1; 
-    padding: 5rem 1rem; 
+    flex: 1;
+    padding: 5rem 1rem;
     display: flex;
     justify-content: center;
-    align-items: flex-start; 
+    align-items: flex-start;
 }
 
+/* Container da Biografia */
 .bio-container {
-    background-color: #f9f9f9; 
+    background-color: #f9f9f9;
     border-radius: 10px;
     padding: 2rem;
     max-width: 800px;
     width: 100%;
-    text-align: left; 
-    margin-top: 28rem; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: left;
+    margin-top: 28rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .bio-header {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; 
+    align-items: flex-start;
     margin-bottom: 2rem;
-    font-family: 'Inter', serif; 
+    font-family: 'Inter', serif;
     font-size: 17px;
 }
 
 .color-line {
     width: 100%;
     height: 3px;
-    background-color: #C44917; 
+    background-color: #C44917;
     border: none;
-    margin-top: 0.5rem; 
+    margin-top: 0.5rem;
 }
 
 .bio-content h2 {
-    margin-top: 1.5rem; 
-    font-family: 'Inter', serif; 
+    margin-top: 1.5rem;
+    font-family: 'Inter', serif;
     font-size: 16px;
 }
 
-.bio-content p {
-    font-family: 'Inter', serif; 
-    line-height: 1.6; 
+.bio-content p,
+.bio-content ul {
+    font-family: 'Inter', serif;
+    line-height: 1.6;
     font-size: 14px;
 }
 
 .bio-content ul {
-    font-family: 'Inter', serif; 
-    line-height: 1.6; 
-    font-size: 14px;
+    padding-left: 1.5rem;
 }
 
+.bio-content ul li {
+    margin-bottom: 0.5rem;
+}
+
+.bio-content ul li span {
+    font-weight: bold;
+}
+
+/* Imagem BooBoo */
 .image-container {
-    text-align: center; 
-    margin-top: 1rem; 
+    text-align: center;
+    margin-top: 2rem;
 }
 
-/* Imagem ao final do texto do container */
 .booboo-image {
-    background-color: #f9f9f9; 
-    width: 90px; 
-    height: auto; 
+    max-width: 10%;
+    height: auto;
+    border-radius: 10px;
 }
 
-/* Miniatura dos livros */
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    font-family: 'Inter', sans-serif;
-}
-
+/* Miniaturas dos Livros */
 .book-thumbnails-container {
     max-width: 800px;
     margin: 20px auto;
@@ -146,17 +148,19 @@ main.content {
 .book-thumbnails {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .book-thumbnail {
     text-align: center;
     flex: 1;
     margin: 0 10px;
+    max-width: 200px;
 }
 
 .book-thumbnail h3 {
-    margin-bottom: 8px; 
-    font-family: 'Inter', serif; 
+    margin-bottom: 8px;
+    font-family: 'Inter', serif;
     font-size: 13px;
 }
 
@@ -186,36 +190,35 @@ main.content {
     background-color: #c44917;
 }
 
-/* Footer apenas da Home */
-.footer-home {
+/* Footer da Home */
+.footer--home {
     text-align: center;
     padding: -2rem;
-    background-color: transparent; 
-    margin: 1rem; 
+    background-color: transparent;
+    margin: 1rem;
     max-width: 800px;
     border-radius: 10px;
-    margin-top: auto; 
-    position: fixed; 
+    margin-top: auto;
+    position: fixed;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    width: 100%; 
+    width: 100%;
 }
 
-.footer-home a {
+.footer--home a {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.7rem 3rem;
-    background-color: #668632; 
+    background-color: #668632;
     color: #f9f9f9;
     text-decoration: none;
-    border-radius: 20px; 
-    font-size: 14px; 
-    font-family: 'Inter', sans-serif; 
-    transition: background-color 0.3s ease; /* Transição suave do hover */
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    transition: background-color 0.3s ease;
 }
 
-.footer-home a:hover {
-    background-color: #C44917; 
+.footer--home a:hover {
+    background-color: #C44917;
 }
-
