@@ -53,3 +53,93 @@ nav ul li a:hover::after {
     left: 0;
     background: #668632;
 }
+
+/* Estilos existentes */
+nav {
+    background-color: #F9F9F9;
+    width: 40%; 
+    height: 100%;
+    border-radius: 100px; 
+    padding: 1rem;
+    position: relative; 
+    top: 25px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #232323;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Gaegu', cursive; 
+    position: relative; 
+    font-size: 1rem; /* Tamanho da fonte inicial */
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #C44917;
+    transition: width 0.3s ease;
+    -webkit-transition: width 0.3s ease;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+    left: 0;
+    background: #668632;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    nav {
+        width: 80%; 
+        padding: 0.75rem; 
+    }
+
+    nav ul li {
+        margin: 0 0.5rem; 
+    }
+
+    nav ul li a {
+        font-size: 1rem; 
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        width: 80%; 
+        padding: 0.5rem; 
+        border-radius: 50px; 
+    }
+
+    nav ul li {
+        margin: 0 0.25rem; 
+    }
+
+    nav ul li a {
+        font-size: 0.6rem; 
+    }
+}

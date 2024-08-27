@@ -1,3 +1,46 @@
+:root {
+    --primary-color: #C44917;
+    --secondary-color: #668632;
+    --background-color: #F1F0EC;
+    --text-color: #333;
+    --font-family: 'Inter', serif;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: var(--background-color);
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Backgrounds Específicos por Página */
+.obras-publicadas {
+    background-image: url(CapaObrasPublicadas.jpg);
+}
+
+.home {
+    background-image: url(FundoHome.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+/* Conteúdo Principal */
+main.content {
+    flex: 1;
+    padding: 5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Container das Obras Publicadas */
 .obras-container {
     background-color: #f9f9f9;
     border-radius: 10px;
@@ -14,14 +57,22 @@
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 2rem;
-    font-family: 'Inter', serif;
-    font-size: 17px;
+    font-family: var(--font-family);
+    font-size: 1rem;
+}
+
+.color-line {
+    width: 100%;
+    height: 3px;
+    background-color: var(--primary-color);
+    border: none;
+    margin-top: 0.5rem;
 }
 
 .obras-content p {
-    font-family: 'Inter', serif;
+    font-family: var(--font-family);
     line-height: 1.6;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .obras-grid {
@@ -46,6 +97,7 @@
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     margin: 0;
+    object-fit: cover; 
 }
 
 .obras-description {
@@ -57,43 +109,42 @@
 }
 
 .card-title {
-    font-size: 13px;
-    color: #050505;
+    font-size: 0.875rem;
+    color: var(--text-color);
     font-weight: bold;
     margin: 0.1rem 0;
-    font-family: 'Inter', serif;
+    font-family: var(--font-family);
 }
 
 .card-subtitle {
-    font-size: 12px;
-    color: #050505;
+    font-size: 0.75rem;
+    color: var(--text-color);
     font-weight: bold;
     margin: 0.1rem 0;
-    font-family: 'Inter', serif;
-    font-size: 12px;
+    font-family: var(--font-family);
 }
 
 .card-text1 {
-    font-size: 12px;
-    color: #050505;
+    font-size: 0.75rem;
+    color: var(--text-color);
     margin: 0.5rem 0;
-    font-family: 'Inter', serif;
+    font-family: var(--font-family);
 }
 
 .card-text2 {
-    font-size: 12px;
-    color: #050505;
+    font-size: 0.75rem;
+    color: var(--text-color);
     margin: 0.5rem 0;
-    font-family: 'Inter', serif;
+    font-family: var(--font-family);
 }
 
 .ver-mais {
     display: inline-block;
     padding: 0.3rem 0.9rem;
-    font-family: 'Inter', serif;
-    font-size: 12px;
+    font-family: var(--font-family);
+    font-size: 0.75rem;
     color: #f9f9f9;
-    background-color: #668632;
+    background-color: var(--secondary-color);
     border-radius: 20px;
     text-decoration: none;
     transition: background-color 0.3s ease;
@@ -101,5 +152,39 @@
 }
 
 .ver-mais:hover {
-    background-color: #c44917;
+    background-color: var(--primary-color);
 }
+
+/* Media Queries */
+@media (max-width: 480px) {
+    .obras-container {
+        margin-top: 5rem; 
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .obras-container {
+        margin-top: 20rem; 
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+    .obras-container {
+        margin-top: 28rem; 
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1919px) {
+    .obras-container {
+        margin-top: 28rem; 
+    }
+}
+
+@media (min-width: 1920px) {
+    .obras-container {
+        margin-top: 40rem; 
+        max-width: 1200px; 
+    }
+}
+
+
