@@ -234,7 +234,7 @@ main.content {
 /* Media Queries para ajustar a posição do botão "Conheça Mabel" na página Home */
 @media (max-width: 480px) {
     .footer--home {
-        bottom: 200px; 
+        bottom: 100px; 
     }
 }
 

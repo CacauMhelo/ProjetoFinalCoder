@@ -44,7 +44,7 @@
     margin-right: 0.2rem;
 }
 
-/* Media Queries */
+/* Media Queries para ajustar o footer */
 @media (max-width: 480px) {
     .main-footer {
         padding: 1rem; 
