@@ -1,0 +1,36 @@
+/* Estilo para o h1 */
+.bio-header h1 {
+    border-bottom: var(--primary-color) 3px solid;
+    width: 100%;
+    padding-bottom: 0.8rem;
+}
+
+.card-title {
+    font-size: 0.80rem; 
+    color: var(--text-color); 
+    font-weight: bold;
+    margin: 0.1rem 0 0.05rem 0;
+    font-family: var(--font-family); 
+}
+
+.card-subtitle {
+    font-size: 0.75rem;
+    color: var(--text-color);
+    font-weight: bold;
+    margin: 0.1rem 0;
+    font-family: var(--font-family);
+}
+
+.card-text1 {
+    font-size: 0.70rem;
+    color: var(--text-color);
+    margin: 0.5rem 0;
+    font-family: var(--font-family);
+}
+
+.card-text2 {
+    font-size: 0.70rem;
+    color: var(--text-color);
+    margin: 0.5rem 0;
+    font-family: var(--font-family);
+}

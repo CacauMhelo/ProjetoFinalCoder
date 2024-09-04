@@ -1,0 +1,34 @@
+/* Imagem BooBoo */
+.image-container {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.bio-booboo-image {
+    max-width: 10%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.gallery-booboo-image {
+    max-width: 16%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.obras-booboo-image {
+    max-width: 13%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.books-booboo-image {
+    max-width: 12%;
+    height: auto;
+    border-radius: 10px;
+}
+.sobre-booboo {
+    max-width: 15%;
+    height: auto;
+    border-radius: 10px;
+}

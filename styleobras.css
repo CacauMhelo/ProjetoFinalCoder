@@ -19,6 +19,13 @@ body {
     box-sizing: border-box;
 }
 
+/* Estilo para o h1 */
+.obras-header {
+    border-bottom: var(--primary-color) 3px solid;
+    width: 100%;
+    padding-bottom: 0.8rem;
+}
+
 /* Backgrounds Específicos por Página */
 .obras-publicadas {
     background-image: url(CapaObrasPublicadas.jpg);
@@ -106,53 +113,6 @@ main.content {
     flex-direction: column;
     justify-content: center;
     text-align: left;
-}
-
-.card-title {
-    font-size: 0.875rem;
-    color: var(--text-color);
-    font-weight: bold;
-    margin: 0.1rem 0;
-    font-family: var(--font-family);
-}
-
-.card-subtitle {
-    font-size: 0.75rem;
-    color: var(--text-color);
-    font-weight: bold;
-    margin: 0.1rem 0;
-    font-family: var(--font-family);
-}
-
-.card-text1 {
-    font-size: 0.75rem;
-    color: var(--text-color);
-    margin: 0.5rem 0;
-    font-family: var(--font-family);
-}
-
-.card-text2 {
-    font-size: 0.75rem;
-    color: var(--text-color);
-    margin: 0.5rem 0;
-    font-family: var(--font-family);
-}
-
-.ver-mais {
-    display: inline-block;
-    padding: 0.3rem 0.9rem;
-    font-family: var(--font-family);
-    font-size: 0.75rem;
-    color: #f9f9f9;
-    background-color: var(--secondary-color);
-    border-radius: 20px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-    margin-left: auto;
-}
-
-.ver-mais:hover {
-    background-color: var(--primary-color);
 }
 
 /* Media Queries */

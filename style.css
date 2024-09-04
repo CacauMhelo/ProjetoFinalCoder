@@ -126,17 +126,6 @@ main.content {
     font-weight: bold;
 }
 
-/* Imagem BooBoo */
-.image-container {
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.booboo-image {
-    max-width: 10%;
-    height: auto;
-    border-radius: 10px;
-}
 
 /* Miniaturas dos Livros */
 .book-thumbnails-container {
@@ -180,26 +169,8 @@ main.content {
     border-radius: 15px;
 }
 
-.ver-mais {
-    display: inline-block;
-    margin-top: 9px;
-    padding: 0.3rem 0.9rem;
-    font-family: var(--font-family);
-    font-size: 0.75rem;
-    color: #f9f9f9;
-    background-color: var(--secondary-color);
-    border-radius: 20px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-    margin-left: auto;
-}
-
-.ver-mais:hover {
-    background-color: var(--primary-color);
-}
-
-/* Footer da Home */
-.footer--home {
+/* Main da Home */
+.main--home {
     text-align: center;
     padding: 1rem 0; 
     background-color: transparent;
@@ -212,23 +183,6 @@ main.content {
     bottom: 20px;
     left: 50%;
     transform: translateX(-50%); 
-}
-
-.footer--home a {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.7rem 3rem;
-    background-color: var(--secondary-color);
-    color: #f9f9f9;
-    text-decoration: none;
-    border-radius: 20px;
-    font-size: 0.875rem;
-    font-family: var(--font-family);
-    transition: background-color 0.3s ease;
-}
-
-.footer--home a:hover {
-    background-color: var(--primary-color);
 }
 
 /* Media Queries para ajustar a posição do botão "Conheça Mabel" na página Home */
