@@ -1,0 +1,44 @@
+/* Backgrounds Específicos por Página */
+.sobre {
+    background-image: url(CapaSobre.jpg);
+}
+
+.mother-book {
+    background-image: url(CapaMother.jpg);
+}
+
+.water-book {
+    background-image: url(CapaWater.jpg);
+}
+
+.alice-book {
+    background-image: url(CapaAlice.jpg);
+}
+
+.peterpan-book {
+    background-image: url(CapaPeterPan.jpg);
+}
+
+.grimms-book {
+    background-image: url(CapaGrimms.jpg);
+}
+
+.obras-publicadas {
+    background-image: url(CapaObrasPublicadas.jpg);
+}
+
+.biografia {
+    background-image: url(CapaBiografia.jpg);
+}
+
+.galeria {
+    background-image: url(CapaGaleria.jpg);
+}
+
+.home {
+    background-image: url(FundoHome.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center -150px;
+    overflow-y: scroll;
+}

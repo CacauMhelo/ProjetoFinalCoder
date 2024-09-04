@@ -19,13 +19,6 @@ body {
     box-sizing: border-box;
 }
 
-/* Estilo para o h1 */
-.obras-header {
-    border-bottom: var(--primary-color) 3px solid;
-    width: 100%;
-    padding-bottom: 0.8rem;
-}
-
 /* Backgrounds Específicos por Página */
 .obras-publicadas {
     background-image: url(CapaObrasPublicadas.jpg);
