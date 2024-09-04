@@ -117,13 +117,6 @@ main.content {
 }
 
 
-.card-text {
-    font-size: 0.75rem; 
-    color: var(--text-color); 
-    margin: 0; 
-    font-family: var(--font-family); 
-}
-
 /* Media Queries */
 @media (min-width: 0px) and (max-width: 480px) {
     .gallery-container {
