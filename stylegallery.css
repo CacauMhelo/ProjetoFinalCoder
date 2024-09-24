@@ -19,18 +19,6 @@ body {
     box-sizing: border-box;
 }
 
-/* Backgrounds Específicos por Página */
-.galeria {
-    background-image: url(CapaGaleria.jpg);
-}
-
-.home {
-    background-image: url(FundoHome.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-}
-
 /* Conteúdo Principal */
 main.content {
     flex: 1;
