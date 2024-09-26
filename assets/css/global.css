@@ -23,6 +23,23 @@ body {
     overflow-y: scroll;
 }
 
+
+/* Main da Home */
+.main--home {
+    text-align: center;
+    padding: 1rem 0; 
+    background-color: transparent;
+    max-width: 800px;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    position: fixed; 
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
 /* Conteúdo Principal */
 main.content {
     flex: 1;
@@ -85,52 +102,11 @@ main.content {
     font-weight: bold;
 }
 
-
-/* Miniaturas dos Livros */
-.book-thumbnails-container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    border-top: 1px solid #ccc;
-    margin-top: -20px;
-}
-
-.book-thumbnails {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.book-thumbnail {
-    text-align: center;
-    flex: 1;
-    margin: 0 10px;
-    max-width: 200px;
-}
-
-
-.book-thumbnail img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    border-radius: 15px;
-}
-
-/* Main da Home */
-.main--home {
-    text-align: center;
-    padding: 1rem 0; 
-    background-color: transparent;
-    max-width: 800px;
-    border-radius: 10px;
-    width: 100%;
-    display: flex;
-    justify-content: center; 
-    position: fixed; 
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%); 
+/* Media Queries da página Sobre */
+@media (max-width: 480px) {
+    .bio-container {
+        margin-top: 5rem; 
+    }
 }
 
 /* Media Queries para ajustar a posição do botão "Conheça Mabel" na página Home */
@@ -155,38 +131,6 @@ main.content {
 @media (min-width: 1280px) {
     .main--home {
         bottom: 40px; 
-    }
-}
-
-/* Media Queries da página Sobre */
-@media (max-width: 480px) {
-    .bio-container {
-        margin-top: 5rem; 
-    }
-}
-
-@media (min-width: 481px) and (max-width: 768px) {
-    .bio-container {
-        margin-top: 20rem; 
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1279px) {
-    .bio-container {
-        margin-top: 28rem; 
-    }
-}
-
-@media (min-width: 1280px) and (max-width: 1919px) {
-    .bio-container {
-        margin-top: 28rem; 
-    }
-}
-
-@media (min-width: 1920px) {
-    .bio-container {
-        margin-top: 40rem;  
-        max-width: 1200px; 
     }
 }
 

@@ -1,0 +1,59 @@
+/* Backgrounds Específicos por Página */
+.sobre {
+    background-image: url(../img/CapaSobre.jpg);
+}
+
+.mother-book {
+    background-image: url(../img/CapaMother.jpg);
+}
+
+.water-book {
+    background-image: url(../img/CapaWater.jpg);
+}
+
+.alice-book {
+    background-image: url(../img/CapaAlice.jpg);
+}
+
+.peterpan-book {
+    background-image: url(../img/CapaPeterPan.jpg);
+}
+
+.grimms-book {
+    background-image: url(../img/CapaGrimms.jpg);
+}
+
+.obras-publicadas {
+    background-image: url(../img/CapaObrasPublicadas.jpg);
+}
+
+.biografia {
+    background-image: url(../img/CapaBiografia.jpg);
+}
+
+.galeria {
+    background-image: url(../img/CapaGaleria.jpg);
+}
+
+.home {
+    background-image: url(../img/FundoHome.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center -150px;
+    overflow-y: scroll;
+}
+/* Media query para telas menores que 768px */
+@media (max-width: 768px) {
+    .home {
+        background-image: url('../img/FundoHomeMobile.png'); 
+        background-position: center 0px; 
+    }
+}
+
+/* Media query para telas menores que 480px */
+@media (max-width: 480px) {
+    .home {
+        background-image: url('../img/FundoHomeMobile.png'); 
+        background-position: center 0px; 
+    }
+}

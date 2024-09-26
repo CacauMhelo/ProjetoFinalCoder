@@ -1,0 +1,26 @@
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .bio-container {
+        margin-top: 20rem; 
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+    .bio-container {
+        margin-top: 28rem; 
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1919px) {
+    .bio-container {
+        margin-top: 28rem; 
+    }
+}
+
+@media (min-width: 1920px) {
+    .bio-container {
+        margin-top: 40rem;  
+        max-width: 1200px; 
+    }
+}

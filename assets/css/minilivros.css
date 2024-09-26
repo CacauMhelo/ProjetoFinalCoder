@@ -1,0 +1,30 @@
+/* Miniaturas dos Livros */
+.book-thumbnails-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    margin-top: -20px;
+}
+
+.book-thumbnails {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.book-thumbnail {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+    max-width: 200px;
+}
+
+
+.book-thumbnail img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+}
